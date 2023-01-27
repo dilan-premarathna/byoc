@@ -73,7 +73,7 @@ COPY quartz-2.3.2.jar /home/ballerina/jars/
 COPY task-native-2.3.0.jar /home/ballerina/jars/ 
 COPY time-native-2.2.3.jar /home/ballerina/jars/ 
 COPY url-native-2.2.3.jar /home/ballerina/jars/ 
-COPY shanakap-maria_exercise-4882795016689938477-observability-symbols.jar /home/ballerina/jars/ 
+COPY shanakap-maria_exercise-15576001999442435429-observability-symbols.jar /home/ballerina/jars/ 
 COPY shanakap-maria_exercise-0.1.0.jar /home/ballerina/jars/ 
 RUN addgroup troupe \
     && adduser -S -s /bin/bash -g 'ballerina' -G troupe -D ballerina \
