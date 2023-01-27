@@ -12,6 +12,7 @@ RUN addgroup troupe \
 WORKDIR /home/ballerina
 
 EXPOSE  9090
+USER 10014
 USER ballerina
 
 CMD java -Xdiag -cp "shanakap-maria_exercise-0.1.0.jar:jars/*" 'shanakap/maria_exercise/0/$_init'
